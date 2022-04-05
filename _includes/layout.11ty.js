@@ -12,7 +12,7 @@ exports.render = function(data)
 	<head>
 		<meta charset="utf-8">
 		<title>${data.title}</title>
-		<link rel="stylesheet" href="/assets/css/styles.css">
+		<link rel="stylesheet" href="/assets/css/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=????????????0&display=swap" rel="stylesheet">
 		<script src="/assets/js/???????????.js" defer></script>
 	</head>
