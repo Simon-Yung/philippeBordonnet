@@ -23,18 +23,25 @@ exports.render = function(data)
 	{
 		try
 		{
-			renderedContent += components[data.sections[i].name].render(data.sections[i].content)
+			renderedContent += components[data.sections[i].name].render( data.sections[i].content , this )
 		}
-		catch
+		catch (e)
 		{
 			renderedContent = renderedContent + `
-		<!-- Component "${data.sections[i].name}" does not exist -->`
+		<!-- Component "${data.sections[i].name}" ran into some issue -->
+		<!-- ${e} -->`;
+		console.error(e);
 		}
 		i++;
 	}
 
 	return renderedContent + `
 	</body>
-</html>`;
+</html>
+
+<!--   /|/|   (   -->
+<!--  ('.')    )  -->
+<!--   |   \\  /   -->
+<!--   ||___)/    -->`;
 
 };

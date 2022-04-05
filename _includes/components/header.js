@@ -1,4 +1,4 @@
-exports.render = function ( content )
+exports.render = function ( content , context )
 {
 	return `
 		<p>
