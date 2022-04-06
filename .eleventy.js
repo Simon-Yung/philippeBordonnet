@@ -31,15 +31,14 @@ module.exports = (eleventyConfig) => {
 	);
 	eleventyConfig.addJavaScriptFunction( "imgCopy", function( file )
 		{
-			let options = { formats: [ "jpeg" ], urlPath: "/img/", outputDir: "./_site/img/"}
+			let options = {width: [ null ], formats: [ null ], urlPath: "/img/", outputDir: "./_site/img/"}
 			// generate a new jpeg image with 300px width and copy it and the og image to the /img/ folder
 			Image(`./img/${file}`, options);
 			// get the metadata of the image even if the image generation is not finished yet
 			let metadata = Image.statsSync(`./img/${file}`, options );
-			return {
-				url : metadata.jpeg[0].url
-				// heightRatio : metadata.jpeg[0].height / metadata.jpeg[0].width * 100, // height is ??? percent of the width
-				// widthRatio : metadata.jpeg[0].height / metadata.jpeg[0].width * 100 // width is ??? percent of the height
+			for (let file in metadata)
+			{
+				return { url : metadata[file][0].url} 
 			}
 		}
 	);
