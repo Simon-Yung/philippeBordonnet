@@ -62,5 +62,22 @@ sections:
         33 610 16 74 16  
         contact@galeriejlmoreau.fr  
         From April 1, 2022  
-      
+
+  - type: "simpleText"
+    content:
+      id:
+      text: | 
+        # PHILIPPE BORDONNET  
+
+        Inspired, **Philippe Bordonnet** appears to impose colors and movements to wash over him free of restraints, with the energy of life and the occasionally extravagant daze of spontaneous emotions !  
+        &nbsp;  
+        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABESTRACTION**  
+        &nbsp;  
+        The truths he expresses seem to frame his "gestures" and offer a contemporary poetry that permits us some jubilant lapses.  
+        &nbsp;  
+        This man loves life, and knows to explore and understand it. No doubt therein lie his inspirations, his fulgurances.
+        Nature, people, their attidudes... It is thus, without restraint, that he reaches out to his destination and presents us with an " introductory scene" which for us, the viewers, will be a formidable and evident journey of emotions and excitements....  
+        &nbsp;  
+        **Born in 1973 in Ingwiller (Alsace-France) / Gallery owner/Artist/ Inspirations, Gerhard Richter and Franz Kline**  
+
 ---

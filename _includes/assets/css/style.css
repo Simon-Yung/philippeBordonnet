@@ -15,10 +15,10 @@
 	--color-dark: #112;
 
 	--color-background: #eed;
-	--color-foreground: #445;
+	--color-foreground: #334;
 
 	--color-text-default: #667;
-	--color-text-em: #445;
+	--color-text-em: #334;
 
 	
 	scroll-behavior: smooth;
@@ -121,7 +121,7 @@ strong{
 	transition: 0.3s ease all;
 }
 .landing__content__description__callToAction:hover, .landing__content__description__callToAction:focus-visible{
-	background-color: var(--color-foreground);
+	background-color: var(--color-dark);
 }
 
 
