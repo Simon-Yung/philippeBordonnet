@@ -5,6 +5,7 @@ sections:
 
   - type: "landing"
     content:
+      id:
       background: "/bg.jpg"
       title: PHILIPPE BORDONNET
       subTitle: Philippe Bordonnet | Artist
@@ -16,10 +17,12 @@ sections:
 
   - type: "header"
     content:
+      id:
       logo: "/logo.png"
 
   - type: "simpleText"
     content:
+      id:
       text: | 
         # PHILIPPE BORDONNET, PAINTER  
 
@@ -31,7 +34,8 @@ sections:
 
   - type: "textAndImage"
     content:
-      ratio: 
+      id: expo
+      imageWidth: 55
       banner: EXPOSITION(S)
       image: "/expo.jpg"
       text: | 
