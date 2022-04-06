@@ -53,11 +53,7 @@ exports.render = function(data)
 	{
 		try
 		{
-			// 'this' is necessary to access .eleventy.js 's functions.
-			// Passing 'this' is generally seen as bad practice,
-			// but since I do not have easy and direct access to how .eleventy.js add js function,
-			// passing it as an argument proved to be a simple fairly efficient alternative.
-			renderedContent += components[data.sections[i].name].render( data.sections[i].content , this )
+			renderedContent += components[data.sections[i].name].render.apply( this, [data.sections[i].content, data] )
 		}
 		catch (e)
 		{
