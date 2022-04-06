@@ -23,8 +23,8 @@ sections:
       text: | 
         # PHILIPPE BORDONNET, PAINTER  
 
-        Inspired, **Philippe Bordonnet** appears to impose colors and movements  
-        to wash over him free of restraints, withthe energy of life  
+        Inspired, **Philippe Bordonnet** appears to impose colors and movements
+        to wash over him free of restraints, withthe energy of life
         and the occasionally extravagant daze of spontaneous emotions !  
         &nbsp;  
         **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABESTRACTION**

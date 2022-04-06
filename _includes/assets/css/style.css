@@ -296,72 +296,80 @@ strong{
 	font: 200 1rem/2 'poppins', sans-serif;
 } */
 
-
+/* 
 .mainBody{
 	background-color: #fff;
-}
+} */
 
 
-.artist{
+.textAndImage{
+	margin: var(--default-spacing) 0rem 0rem 0rem;
 	position: relative;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: stretch;
-	margin: var(--default-spacing) 0rem 0rem 0rem;
 	gap: 2rem;
 }
-.artist__title{
+.textAndImage__banner{
 	position: absolute;
 	left: calc( 60% - 6rem );
-	max-width: calc( 35% + 6rem );
 	top: 2rem;
-	background-color: #334;
 	padding: 1rem 2rem;
+	max-width: calc( 35% + 6rem );
 	min-width: 30rem;
+	background-color: var(--color-foreground);
 }
-.artist__title h1{
+.textAndImage__banner h1{
 	margin: 0;
 	padding: 0;
-	color: #eed;
+	color: var(--color-default);
 	font: var(--main-h1-font);
 }
-.artist__image{
+.textAndImage__image{
 	width: calc( 60% - 3rem );
 	margin: 0 0 0 auto;
 	height: auto;
 	object-fit: contain;
 	object-position: 50% 00%;
 }
-.artist__description{
+.textAndImage__description{
 	width: calc( 40% - 3rem );
 	margin: 0 auto 0 0;
-	background-color: #eed;
 	padding: 7rem 2rem 2rem 2rem;
+	background-color: var(--color-background);
 }
-.artist__description h2{
+.textAndImage__description h2{
 	margin: 1rem 0 3rem 0;
 	margin-bottom: 6rem;
-	color: #334;
+	color: var(--color-text-em);
 	font: var(--main-h1-font);
 }
-.artist__description p{
-	color: #667;
-	font: var(--main-p-font);
-}
-.artist__description em{
-	color: #445;
-	font: var(--main-p-font);
-	font-weight: 400;
-	font-style: italic;
-}
-.artist__description strong{
-	color: #445;
+.textAndImage__description h3{
+	margin: 3rem 0 1rem 0;
+	color: var(--color-text-em);
 	font: var(--main-p-font);
 	font-size: 1.2rem;
 	font-weight: 400;
 	font-style: normal;
+}
+.textAndImage__description p{
+	color: var(--color-text-default);
+	font: var(--main-p-font);
+}
+.textAndImage__description em{
+	color: var(--color-text-em);
+	font: var(--main-p-font);
+	font-weight: 400;
+	font-style: italic;
+}
+.textAndImage__description strong{
+	color: var(--color-text-em);
+	font: var(--main-p-font);
+	font-weight: 400;
+	font-style: bold;
 }
 
 
