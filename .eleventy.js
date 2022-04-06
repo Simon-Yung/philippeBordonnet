@@ -18,9 +18,9 @@ module.exports = (eleventyConfig) => {
 		{
 			let options = {widths: [ width , null ], formats: [ "jpeg" ], urlPath: "/img/", outputDir: "./_site/img/"}
 			// generate a new jpeg image with 300px width and copy it and the og image to the /img/ folder
-			Image(`./img/${file}`, options);
+			Image(`./img${file}`, options);
 			// get the metadata of the image even if the image generation is not finished yet
-			let metadata = Image.statsSync(`./img/${file}`, options );
+			let metadata = Image.statsSync(`./img${file}`, options );
 			return {
 				thumbnailUrl : metadata.jpeg[0].url,
 				OGUrl : metadata.jpeg[1].url,
@@ -33,9 +33,9 @@ module.exports = (eleventyConfig) => {
 		{
 			let options = {width: [ null ], formats: [ null ], urlPath: "/img/", outputDir: "./_site/img/"}
 			// generate a new jpeg image with 300px width and copy it and the og image to the /img/ folder
-			Image(`./img/${file}`, options);
+			Image(`./img${file}`, options);
 			// get the metadata of the image even if the image generation is not finished yet
-			let metadata = Image.statsSync(`./img/${file}`, options );
+			let metadata = Image.statsSync(`./img${file}`, options );
 			for (let file in metadata)
 			{
 				return { url : metadata[file][0].url} 
