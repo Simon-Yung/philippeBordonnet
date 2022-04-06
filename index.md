@@ -1,6 +1,6 @@
 ---
 layout: layout.11ty.js
-# title: Page Title
+title: Page Title
 sections:
   - name: "landing"
     content:
@@ -12,8 +12,9 @@ sections:
           href: "/index.html#expo"
         - text: WORK
           href: "/artist.html"
-  - name: ""
-    data: {}
+  - name: "header"
+    content:
+      logo: "logo.png"
   - name: "eee"
-    data: {}
+    content: {}
 ---
