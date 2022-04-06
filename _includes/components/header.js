@@ -1,7 +1,7 @@
 exports.render = function ( content, pagedata )
 {
 	let output = `
-	<header class="header" id="${content.id}">
+	<header class="header" ${content.id?'id="'+content.id+'"':''}>
 		<a href=""><img class="header__image" src="${content.logo != undefined ? this.imgCopy(content.logo).url : ''}"></a>
 		<hr class="header__hr">
 		<nav id="nav">

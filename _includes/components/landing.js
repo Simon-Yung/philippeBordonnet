@@ -1,7 +1,7 @@
 exports.render = function ( content, pagedata )
 {
 	let output = `
-	<section class="landing__background" style="background-image: url('${this.imgCopy(content.background).url}');" id="${content.id}">
+	<section class="landing__background" style="background-image: url('${this.imgCopy(content.background).url}');" ${content.id?'id="'+content.id+'"':''}>
 		<div class="landing__content">
 			<h1 class="landing__content__title">${content.title}</h1>
 			<div class="landing__content__description">
