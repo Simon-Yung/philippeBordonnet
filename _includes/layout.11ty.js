@@ -53,7 +53,7 @@ exports.render = function(data)
 	{
 		try
 		{
-			renderedContent += components[data.sections[i].name].render.apply( this, [data.sections[i].content, data] )
+			renderedContent += components[data.sections[i].type].render.apply( this, [data.sections[i].content, data] )
 		}
 		catch (e)
 		{
