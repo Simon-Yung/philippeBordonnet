@@ -7,12 +7,12 @@ exports.render = function ( content, pagedata )
 		<nav id="nav">
 			<ul class="nav">`
 	let i =0;
-	while(pagedata.pages[i] != undefined)
+	while(pagedata.menu[i] != undefined)
 	{
 		output +=`
 				<li class="nav__li">
 					<div class="nav__li_background"></div>
-					<a class="nav__li__a" href="${pagedata.pages[i].href}">${pagedata.pages[i].name}</a>
+					<a class="nav__li__a" href="${pagedata.menu[i].href}">${pagedata.menu[i].name}</a>
 				</li>`
 		i++
 	}
