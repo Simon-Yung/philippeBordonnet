@@ -56,6 +56,10 @@ strong{
 	align-items: stretch;
 	min-width: 55rem;/*<------------change this*/
 }
+.body > *:nth-child(n+3){
+	/* outline: 1px solid red; */
+	margin-top: var(--default-spacing);
+}
 
 
 .landing__background{
@@ -207,7 +211,7 @@ strong{
 .simpleText{
 	width: 100%;
 	max-width: 60rem;
-	margin: var(--default-spacing) auto 0 auto;
+	margin: 0 auto 0 auto;
 	padding: 0 2rem;
 	}
 .simpleText h1{
@@ -303,7 +307,7 @@ strong{
 
 
 .textAndImage{
-	margin: var(--default-spacing) 0rem 0rem 0rem;
+	margin: 0 auto 0rem auto;
 	position: relative;
 
 	display: flex;
@@ -404,7 +408,7 @@ strong{
 	flex-wrap: nowrap;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0 4rem var(--default-spacing) 4rem;
+	margin: 0 4rem 0 4rem;
 }
 .underline{
 	height: 0;
@@ -539,7 +543,7 @@ strong{
 
 .newsletter{
 	width: 100%;
-	margin: var(--default-spacing) auto var(--default-spacing) auto;
+	margin: 0 auto 0 auto;
 	max-width: 64rem;
 	padding: 7rem 2rem 4rem 2rem;
 	background-color: #eed;
@@ -586,7 +590,7 @@ strong{
 
 .footer{
 	width: 100%;
-	padding: var(--default-spacing) 0 4rem 0;
+	padding: 0 0 4rem 0;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
