@@ -3,5 +3,7 @@ exports.footer = require('./footer.js');
 exports.landing = require('./landing.js');
 exports.simpleText = require('./simpleText.js');
 exports.fancyText = require('./fancyText.js');
+exports.collapsibleText = require('./collapsibleText.js');
 exports.textAndImage = require('./textAndImage.js');
 exports.gallery = require('./gallery.js');
+exports.hr = require('./hr.js');

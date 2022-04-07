@@ -226,86 +226,6 @@ strong{
 	font: var(--main-p-font);
 }
 
-/*
-.header__bar__nav__li__ul{
-	display: flex;
-	overflow: hidden;
-	position: fixed;
-	width: calc( 100% - 4rem );
-	height: 0;
-	min-height: 2rem;
-	top: 2.5rem;
-	right: 100vw;
-	background-color: #112;
-	list-style: none;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: flex-start;
-	justify-content: flex-start;
-	align-content: flex-start;
-	padding: 1rem 2rem;
-	transition: height 0.3s ease-in-out 0.1s ,
-	right 0.3s step-end 0.1s;
-	*/ /* move to the side only at the end when done hivering */ /*
-}
-.header__bar__nav__li:hover .header__bar__nav__li__ul,
-.header__bar__nav__li:focus-within .header__bar__nav__li__ul{
-	height: calc( 100% - 6rem);
-	right: 2rem;
-	overflow: auto;
-	transition: height 0.3s ease-in-out 0s,
-	right 0s step-start 0s;
-	*/ /* move to center instantly when hovering */ /* 
-}
-.header__bar__nav__li__ul li{
-	padding: 0 0.5rem 0 0.5rem;
-	margin: 0.5rem 0 0.5rem 0;
-	transition: all 0.3s ease 0.0s;
-	font: 200 1.5rem/1.0 'poppins', sans-serif;
-}
-.header__bar__nav__li__ul li a{
-	color: #ccd;
-	text-decoration: none;
-	transition: all 0.3s ease 0.0s;
-}
-.header__bar__nav__li__ul li:hover,
-.header__bar__nav__li__ul li:focus{
-	background-color: #fff;
-}
-.header__bar__nav__li__ul li:hover a,
-.header__bar__nav__li__ul li:focus a{
-	color: #112;
-}*/
-
-
-
-
-/* 
-.description{
-	height: auto;
-	width: 100%;
-	padding: 2rem;
-}
-.description__background{
-	width: 100%;
-	border-radius: 0.5rem;
-	background-color: #11111111;
-	padding: 4rem 2rem 4rem 2rem;
-}
-.description__text{
-	width: 100%;
-	max-width: 950px;
-	margin: 0 auto 0 auto;
-	color: white;
-	font: 200 1rem/2 'poppins', sans-serif;
-} */
-
-/* 
-.mainBody{
-	background-color: #fff;
-} */
-
-
 .textAndImage{
 	margin: 0 auto 0rem auto;
 	position: relative;
@@ -431,7 +351,48 @@ strong{
 
 
 
-.mainExposition{/*-----------------*/
+.hr{
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 4rem 0 4rem;
+}
+.hr__line{
+	height: 0;
+	width: auto;
+	flex-grow: 1;
+	margin: 0 2rem 0 0 ;
+	border: none;
+	border-bottom: 1px solid var(--color-dark);
+}
+.hr__text{
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	margin: auto 0 0 0;
+	font: 200 1rem/1.0 'poppins', sans-serif;
+	text-transform: uppercase;
+	color: var(--color-text-default);
+	transition: 0.3s ease all;
+}
+.hr__link{
+	display: inline-block;
+	padding: 0.5rem 1rem;
+	margin: auto 0 0 0;
+	font: 200 1rem/1.0 'poppins', sans-serif;
+	text-transform: uppercase;
+	color: var(--color-text-default);
+	transition: 0.3s ease all;
+}
+.hr__link:hover, .hr__link:focus{
+	color: var(--color-background);
+	background-color: var(--color-dark);
+}
+
+
+.collapsibleText{
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -440,43 +401,9 @@ strong{
 	width: 100%;
 	margin: 0;
 }
-.mainExposition__header{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	align-items: center;
-	justify-content: space-between;
-	margin: 0 4rem 0 4rem;
-}
-.underline{
-	height: 0;
-	border: none;
-	border-bottom: 1px solid #334;
-	width: auto;
-	flex-grow: 1;
-	margin: 0 2rem 0 0 ;
-}
-.mainExposition__header__link{
-	font: 200 1rem/1.0 'poppins', sans-serif;
-	text-transform: uppercase;
-	color: #556;
-	margin: auto 0 0 0;
-	transition: 0.3s ease all;
-	display: inline-block;
-	padding: 0.5rem 1rem;
-}
-.mainExposition__header__link:hover, .mainExposition__header__link:focus{
-	color: #ccd;
-	background-color: #112;
-}
-.mainExposition__header__link__a{
-	text-decoration: none;
-	color: inherit;
-}
-/* .mainExposition__header__link__a::after{
-	content: '   >>';
-} */
-.mainExposition__body{
+
+
+.collapsibleText__content{
 	align-self: center;
 	width: 100%;
 	display: flex;
@@ -485,7 +412,7 @@ strong{
 	justify-content: flex-start;
 	align-items: stretch;
 	max-width: 64rem;
-	margin: 0 auto 02rem auto;
+	margin: 0 auto;
 
 	max-height: 15rem;
 	min-height: 8rem;
@@ -495,10 +422,10 @@ strong{
 	padding: 0rem 2rem 2rem 2rem;
 	transition: 0.3s linear all 0.0s;
 }
-.mainExposition__body[open]{
+.collapsibleText__content[open]{
 	max-height: 999rem;
 }
-.fading{
+.collapsibleText__fading{
 	position: absolute;
 	bottom: 2rem;
 	left: 0;
@@ -506,7 +433,7 @@ strong{
 	height: 4rem;
 	background: linear-gradient(0deg, #fff 0%, #eeeedd00 100%);
 }
-.mainExposition__body[open] .fading{
+.collapsibleText__content[open] .collapsibleText__fading{
 	height: 0;
 }
 .moreOrLess{
@@ -535,49 +462,54 @@ strong{
 	color: #667;
 	font: var(--main-p-font);
 }
-.mainExposition__body[open] .more{
+.collapsibleText__content[open] .more{
 	display: none;
 }
-.mainExposition__body[open] .less{
+.collapsibleText__content[open] .less{
 	display: block;
 }
-.mainExposition__body__description{
+.collapsibleText__content__text{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: stretch;
 }
-.mainExposition__body__description img{
+.collapsibleText__content__text img{
 	width: 40rem;
 	height: auto;
 	margin: 1rem auto 3rem auto;
 }
-.mainExposition__body__description p{
+.collapsibleText__content__text p{
 	font: var(--main-p-font);
 	text-align: justify;
-	color: #667;
+	color: var(--color-text-default);
 	margin: 0;
 	margin-bottom: 0.5rem;
 }
-.mainExposition__body__description a{
+.collapsibleText__content__text a{
 	text-decoration: underline;
 	text-decoration-color: #66b;
 	color: #66b;
 }
-.mainExposition__body__description h1{
+.collapsibleText__content__text h1{
 	margin: 1rem 0 2rem 0;
 	text-align: left;
-	color: #334;
+	color: var(--color-dark);
 	font: var(--main-h1-font);
 }
-.mainExposition__body__description b , .mainExposition__body__description strong{
+.collapsibleText__content__text h2{
+	margin: 1rem auto 1rem 0;
+	text-align: left;
+	color: var(--color-text-default);
+	font: var(--main-h1-font);
+	font-size: 2rem;
+}
+.collapsibleText__content__text strong{
 	text-align: justify;
-	color: #445;
+	color: var(--color-text-em);
 	font: var(--main-p-font);
 	font-weight: 500;
 }
-
-
 
 .fancyText{
 	width: 100%;
@@ -616,15 +548,6 @@ strong{
 	font: var(--main-p-font);
 	font-weight: 500;
 }
-
-
-
-
-
-
-
-
-
 
 .footer{
 	width: 100%;
