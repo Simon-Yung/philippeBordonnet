@@ -1,10 +1,42 @@
 const yaml = require("js-yaml");
+const csv = require("papaparse");
 const Image = require("@11ty/eleventy-img");
 
 module.exports = (eleventyConfig) => {
 	
 	eleventyConfig.addDataExtension("yaml", contents => yaml.load(contents));
 	eleventyConfig.addDataExtension("yml", contents => yaml.load(contents));
+	eleventyConfig.addDataExtension("csv",(contents) => 
+		{
+			// console.log(typeof(contents)); //content is a string
+			let csvData;
+			csv.parse(
+				contents ,
+				{
+					// see https://www.papaparse.com/docs#config for detailed config options
+					delimiter: ",",
+					newline: "",// auto-detect
+					quoteChar: '"',
+					escapeChar: '\\',
+					header: true,// maybe change to false for better performance ?
+					encoding: "UTF-8",
+					complete: ( result, file ) => {
+						if (result.errors)
+						{
+							for ( let i=0 ; i < result.errors.length ; i++ )
+							console.log(result.errors[i])
+						}
+						csvData = result.data;
+					},
+					error: ( error, file ) => { console.log(error) },
+					download: false,
+					skipEmptyLines: "greedy",
+					fastMode: undefined, //Fast mode will automatically be enabled if no " characters appear in the input. 
+				}
+			);
+			return csvData;
+		}
+	);
 
 	//pass through copy for css javascript and internal images
 	eleventyConfig.addPassthroughCopy({ "_includes/assets": "assets" });
