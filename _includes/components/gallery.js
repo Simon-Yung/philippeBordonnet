@@ -13,24 +13,20 @@ exports.render = function ( content, pagedata )
 			</section>
 			<section class="grid">`
 	let i = 0;
-	while ( content.works[i] != undefined )
+	while ( Boolean(pagedata.artworkCollections[content.collection][i]) )
 	{
-		let img = this.imgCreate(content.works[i].image, 500);
+		let img = this.imgCreate(pagedata.artworkCollections[content.collection][i].image, 500);
 		output += `
-				<article 
+				<article class="grid__article"
 				data-img-url="${img.OGUrl}" 
-				data-img-width="${content.works[i].imageWidth}"
-				data_title="${content.works[i].title}"
-				data-description="${content.works[i].description.replace(/\n/g,'<br>')}">
-					<a href="artist.html">
-						<img src="${img.thumbnailUrl}" 
-						loading="lazy"
-						_style="height:${img.heightRatio};Width:${img.widthRatio}"
-						></a>
-					<a href="artist.html">
-						<p><strong>${content.works[i].title}</strong><br>
-						${content.works[i].previewText.replace(/\n/g,'<br>')}</p>
-					</a>
+				data-img-width="${pagedata.artworkCollections[content.collection][i].imageWidth}"
+				data_title="${pagedata.artworkCollections[content.collection][i].title}"
+				data-description="${pagedata.artworkCollections[content.collection][i].longDescription.replace(/\\n/g,'<br>')}">
+					<img class="grid__article__img" src="${img.thumbnailUrl}" 
+					loading="lazy"
+					_style="height:${img.heightRatio};Width:${img.widthRatio}">
+					<strong>${pagedata.artworkCollections[content.collection][i].title}</strong>
+					<p>${pagedata.artworkCollections[content.collection][i].shortDescription.replace(/\\n/g,'<br>')}</p>
 				</article>`
 		++i
 	}
