@@ -80,4 +80,7 @@ sections:
         &nbsp;  
         **Born in 1973 in Ingwiller (Alsace-France) / Gallery owner/Artist/ Inspirations, Gerhard Richter and Franz Kline**  
 
+  - type: "footer"
+    content:
+      id: footer
 ---
