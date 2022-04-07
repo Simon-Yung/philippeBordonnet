@@ -579,40 +579,40 @@ strong{
 
 
 
-.newsletter{
+.fancyText{
 	width: 100%;
 	margin: 0 auto 0 auto;
 	max-width: 64rem;
 	padding: 7rem 2rem 4rem 2rem;
-	background-color: #eed;
+	background-color: var(--color-background);
 	position: relative;
 }
-.newsletter__header{
+.fancyText__banner{
 	position: absolute;
-	margin: 0;
 	left: -4rem;
 	top: 2rem;
-	background-color: #334;
+	margin: 0;
+	background-color: var(--color-foreground);
 	padding: 1rem 2rem;
 	min-width: 30rem;
-	color: #eed;
+	color: var(--color-default);
 	font: var(--main-h1-font);
 	text-transform: uppercase;
 }
-.newsletter h2{
+.fancyText h2{
 	margin: 1rem auto 2rem 0;
 	text-align: left;
-	color: #334;
+	color: var(--color-text-em);
 	font: var(--main-h1-font);
 }
-.newsletter p{
+.fancyText p{
 	text-align: justify;
-	color: #667;
+	color: var(--color-text-default);
 	font: var(--main-p-font);
 }
-.newsletter b , .newsletter strong{
+.fancyText strong{
 	text-align: justify;
-	color: #445;
+	color: var(--color-text-em);
 	font: var(--main-p-font);
 	font-weight: 500;
 }

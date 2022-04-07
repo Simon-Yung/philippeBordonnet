@@ -4,11 +4,15 @@
 		"href":"/"
 	},
 	{
+		"name":"Expo",
+		"href":"/#expo"
+	},
+	{
 		"name":"WORK",
 		"href":"/artwork"
 	},
 	{
-		"name":"wefwef",
-		"href":"wefwef"
+		"name":"C.V.",
+		"href":"/cv"
 	}
 ]
