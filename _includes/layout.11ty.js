@@ -58,7 +58,7 @@ exports.render = function(data)
 		catch (e)
 		{
 			renderedContent = renderedContent + `
-		<!-- Component "${data.sections[i].name}" ran into some issue -->
+		<!-- Component "${data.sections[i].type}" ran into some issue -->
 		<!-- ${e} -->`;
 		//console.error(e);
 		}
