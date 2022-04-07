@@ -4,12 +4,10 @@ exports.render = function ( content, pagedata )
 {
 	let output = `
 			<section id="mainWork" class="textAndImage">
-				<div id="title" class="textAndImage__banner" style="left: calc( ${content.default.imageWidth}% - 6rem ); max-width: calc( ${100 - content.default.imageWidth}% + 6rem );">
-					<h1>${content.default.title}</h1>
-				</div>
 				<img id="preview" class="textAndImage__image" style="width: calc( ${content.default.imageWidth}% - 3rem );" src="${this.imgCopy(content.default.image).url}">
 
 				<article class="textAndImage__description" style="width: calc( ${100 - content.default.imageWidth}% - 3rem );">
+					<div id="title" class="textAndImage__banner"><h1>${content.default.title}</h1></div>
 					<p>${content.default.description.replace(/\n/g,'<br>')}</p>
 				</article>
 			</section>

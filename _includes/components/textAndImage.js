@@ -4,11 +4,11 @@ exports.render = function ( content, pagedata )
 {
 	let output = `
 			<section class="textAndImage" ${content.id?'id="'+content.id+'"':''}>
-				<div class="textAndImage__banner" style="left: calc( ${content.imageWidth}% - 6rem ); max-width: calc( ${100 - content.imageWidth}% + 6rem );"><h1>${content.banner}</h1></div>
 				<img class="textAndImage__image" style="width: calc( ${content.imageWidth}% - 3rem );" src="${this.imgCreate(content.image, 800).thumbnailUrl}">
 
 				<article class="textAndImage__description" style="width: calc( ${100 - content.imageWidth}% - 3rem );">
-				${md.render(content.text)}
+					<div class="textAndImage__banner"><h1>${content.banner}</h1></div>
+${md.render(content.text)}
 				</article>
 			</section>`
 
