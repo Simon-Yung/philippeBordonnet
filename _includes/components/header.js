@@ -7,12 +7,33 @@ exports.render = function ( content, pagedata )
 		<nav id="nav">
 			<ul class="nav">`
 	let i =0;
+	let lang = '';
+	let langHref = '';
+	switch ( pagedata.page.url.substring(6, 8) )
+	{
+		case 'en' :
+			lang = 'en';
+			langHref = '';
+			break;
+		case 'fr' :
+			lang = 'fr';
+			langHref = '/lang=fr';
+			break;
+		case 'de' :
+			lang = 'de';
+			langHref = '/lang=de';
+			break;
+		default :
+			lang = 'en';
+			langHref = '';
+			break;
+	}
 	while(pagedata.menu[i] != undefined)
 	{
 		output +=`
 				<li class="nav__li">
 					<div class="nav__li_background"></div>
-					<a class="nav__li__a" href="${pagedata.menu[i].href}">${pagedata.menu[i].name}</a>
+					<a class="nav__li__a" href="${langHref}${pagedata.menu[i].href}">${pagedata.menu[i].name[lang]}</a>
 				</li>`
 		i++
 	}
@@ -22,9 +43,9 @@ exports.render = function ( content, pagedata )
 		<div class="lang">
 			<img class="lang__icon" src="${this.imgCopy('/lang.png').url}">
 			<ul class="lang__menu">
-				<a href="${pagedata.page.url.replace( /\/lang=([a-z]|-)*\//i , '' )}"><li class="lang__menu__item">English</li></a>
-				<a href="/lang=fr${pagedata.page.url.replace( /\/lang=([a-z]|-)*\//i , '' )}"><li class="lang__menu__item">Francais</li></a>
-				<a href="/lang=en-GB${pagedata.page.url.replace( /\/lang=([a-z]|-)*\//i , '' )}"><li class="lang__menu__item">Deutsch</li></a>
+				<a href="${pagedata.page.url.replace( /\/lang=([a-z]|-)*/i , '' )}"><li class="lang__menu__item">English</li></a>
+				<a href="/lang=fr${pagedata.page.url.replace( /\/lang=([a-z]|-)*/i , '' )}"><li class="lang__menu__item">Francais</li></a>
+				<a href="/lang=de${pagedata.page.url.replace( /\/lang=([a-z]|-)*/i , '' )}"><li class="lang__menu__item">Deutsch</li></a>
 			</ul>
 		</div>
 	</header>`

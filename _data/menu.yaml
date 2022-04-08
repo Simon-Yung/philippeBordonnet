@@ -1,0 +1,20 @@
+- name: 
+    en: HOME
+    fr: HOME
+    de: HOME
+  href: /
+- name:
+    en: EXPO
+    fr: EXPO
+    de: ausstellung
+  href: /#expo
+- name:
+    en: WORKS
+    fr: OEUVRES
+    de: WORKS
+  href: /artwork
+- name:
+    en: C.V.
+    fr: C.V.
+    de: C.V.
+  href: /cv
