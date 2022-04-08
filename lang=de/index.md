@@ -30,7 +30,7 @@ sections:
         to wash over him free of restraints, withthe energy of life
         and the occasionally extravagant daze of spontaneous emotions !  
         &nbsp;  
-        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABSTRACTION**
+        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABESTRACTION**
 
   - type: "textAndImage"
     content:
@@ -71,7 +71,7 @@ sections:
 
         Inspired, **Philippe Bordonnet** appears to impose colors and movements to wash over him free of restraints, with the energy of life and the occasionally extravagant daze of spontaneous emotions !  
         &nbsp;  
-        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABSTRACTION**  
+        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABESTRACTION**  
         &nbsp;  
         The truths he expresses seem to frame his "gestures" and offer a contemporary poetry that permits us some jubilant lapses.  
         &nbsp;  
