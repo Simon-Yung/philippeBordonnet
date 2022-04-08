@@ -19,6 +19,14 @@ exports.render = function ( content, pagedata )
 	output += `
 			</ul>
 		</nav>
+		<div class="lang">
+			<img class="lang__icon" src="${this.imgCopy('/lang.png').url}">
+			<ul class="lang__menu">
+				<a href="${pagedata.page.url.replace( /\/lang=([a-z]|-)*\//i , '' )}"><li class="lang__menu__item">English</li></a>
+				<a href="/lang=fr${pagedata.page.url.replace( /\/lang=([a-z]|-)*\//i , '' )}"><li class="lang__menu__item">Francais</li></a>
+				<a href="/lang=en-GB${pagedata.page.url.replace( /\/lang=([a-z]|-)*\//i , '' )}"><li class="lang__menu__item">Deutsch</li></a>
+			</ul>
+		</div>
 	</header>`
 	return output
 }

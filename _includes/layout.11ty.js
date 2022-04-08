@@ -46,7 +46,7 @@ exports.render = function(data)
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"> 
 		<script src="/assets/js/gallery.js" defer></script>
 	</head>
-	<body class="body" lang="${data.lang}">`;
+	<body class="body" __lang="${data.lang}">`;
 
 	let i = 0;
 	while ( data.sections[i] != undefined )
