@@ -56,8 +56,8 @@ module.exports = (eleventyConfig) => {
 			return {
 				thumbnailUrl : metadata.jpeg[0].url,
 				OGUrl : metadata.jpeg[1].url,
-				heightRatio : metadata.jpeg[0].height / metadata.jpeg[0].width * 100, // height is ??? percent of the width
-				widthRatio : metadata.jpeg[0].height / metadata.jpeg[0].width * 100 // width is ??? percent of the height
+				heightRatio : Math.round(metadata.jpeg[0].height / metadata.jpeg[0].width * 100), // height is ??? percent of the width
+				widthRatio : Math.round(metadata.jpeg[0].height / metadata.jpeg[0].width * 100) // width is ??? percent of the height
 			}
 		}
 	);
