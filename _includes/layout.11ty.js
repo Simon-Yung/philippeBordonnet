@@ -44,7 +44,7 @@ exports.render = function(data)
 		<link rel="stylesheet" href="/assets/css/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"> 
-		<script src="/assets/js/???????????.js" defer></script>
+		<script src="/assets/js/gallery.js" defer></script>
 	</head>
 	<body class="body" lang="${data.lang}">`;
 

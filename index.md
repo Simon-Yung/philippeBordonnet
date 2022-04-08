@@ -13,7 +13,7 @@ sections:
         - text: EXPOSITION
           href: "/index.html#expo"
         - text: WORK
-          href: "/artist.html"
+          href: "/artwork"
 
   - type: "header"
     content:
