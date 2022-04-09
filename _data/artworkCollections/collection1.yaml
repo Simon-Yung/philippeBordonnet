@@ -3,7 +3,7 @@
   imageWidth: 60
   dimmensions: 80 x 155 cm.
   year: 2021
-  price:
+  price: 1.600€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -30,7 +30,7 @@
   imageWidth: 60
   dimmensions: 100 x 135 cm.
   year: 2021
-  price:
+  price: 1.700€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -57,7 +57,7 @@
   imageWidth: 60
   dimmensions: 90 x 120 cm.
   year: 2021
-  price:
+  price: 1.400€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -84,7 +84,7 @@
   imageWidth: 60
   dimmensions: 150 x 300 cm.
   year: 2022
-  price:
+  price: 7.500€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -111,7 +111,7 @@
   imageWidth: 60
   dimmensions: 90 x 120 cm.
   year: 2022
-  price:
+  price: 1.800€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -138,7 +138,7 @@
   imageWidth: 60
   dimmensions: 100 x 150 cm.
   year: 2021
-  price:
+  price: 2.250€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -165,7 +165,7 @@
   imageWidth: 60
   dimmensions: 80 x 120 cm.
   year: 2021
-  price:
+  price: 1.400€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -192,7 +192,7 @@
   imageWidth: 60
   dimmensions: 150 x 150 cm.
   year: 2020
-  price:
+  price: 3.200€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -219,7 +219,7 @@
   imageWidth: 60
   dimmensions: 150 x 420 cm.
   year: 2021
-  price:
+  price: 7.500€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -246,7 +246,7 @@
   imageWidth: 60
   dimmensions: 90 x 190 cm.
   year: 2021
-  price:
+  price: 2.100€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -273,7 +273,7 @@
   imageWidth: 60
   dimmensions: 130 x 160 cm.
   year: 2018
-  price:
+  price: 2.600€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -295,7 +295,7 @@
       Echtheitsbescheinigung
 
 
-- title: VERKAUFT
+- title: VERKAUFT – El Vesuvio
   image: /collection1/El-Vesuvio.jpg
   imageWidth: 60
   dimmensions:
@@ -342,7 +342,7 @@
   imageWidth: 60
   dimmensions: 135 x 200 cm.
   year: 2018
-  price:
+  price: "3.240€ | Leihpreis: 162€/Monat"
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -369,7 +369,7 @@
   imageWidth: 60
   dimmensions: 135 x 195 cm.
   year: 2019
-  price:
+  price: 3.160€
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -396,7 +396,7 @@
   imageWidth: 60
   dimmensions: 80 x 150 cm.
   year: 2019
-  price:
+  price: "1.440€ | Leihpreis: 72€/Monat"
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -414,5 +414,480 @@
       Acryl auf Leinwand
       80 x 150 cm.
       Created in 2019
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+# nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+- title: Aurora 
+  image: /collection1/Aurora.jpeg
+  imageWidth: 60
+  dimmensions: 100 x 100 cm.
+  year: 2021
+  price: 1.400€
+  description:
+    en-GB: |
+      Acrylic and Spray Paint on Canvas (Chassis)
+      100 x 100 cm.
+      Created in 2021
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique et Peinture Aérosole sur Toile (Châssis)
+      100 x 100 cm.
+      Créée en 2021
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl und Spray auf Leinwand
+      100 x 100 cm.
+      Created in 2021
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Lust auf Meer  
+  image: /collection1/Lust-auf-Meer.jpeg
+  imageWidth: 60
+  dimmensions: 115 x 115 cm.
+  year: 2021
+  price: 1.850€
+  description:
+    en-GB: |
+      Acrylic and Spray Paint on Canvas (Chassis)
+      115 x 115 cm.
+      Created in 2021
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique et Peinture Aérosole sur Toile (Châssis)
+      115 x 115 cm.
+      Créée en 2021
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl und Spray auf Leinwand
+      115 x 115 cm.
+      Created in 2021
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Blauer Punkt
+  image: /collection1/Blauer-Punkt.jpeg
+  imageWidth: 60
+  dimmensions: 150 x 150 cm.
+  year: 2022
+  price: 3.200€
+  description:
+    en-GB: |
+      Acrylic and Spray Paint on Canvas (Chassis)
+      150 x 150 cm.
+      Created in 2022
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique et Peinture Aérosole sur Toile (Châssis)
+      150 x 150 cm.
+      Créée en 2022
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl und Spray auf Leinwand
+      150 x 150 cm.
+      Created in 2022
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Pink Flowered 
+  image: /collection1/Pink-Flowered.jpg
+  imageWidth: 60
+  dimmensions: 150 x 150 cm.
+  year: 2022
+  price: "2.700€ | Leihpreis: 135€/Monat"
+  description:
+    en-GB: |
+      Acrylic and Spray Paint on Canvas (Chassis)
+      150 x 150 cm.
+      Created in 2022
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique et Peinture Aérosole sur Toile (Châssis)
+      150 x 150 cm.
+      Créée en 2022
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl und Spray auf Leinwand
+      150 x 150 cm.
+      Created in 2022
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Célébration
+  image: /collection1/Celebration.jpg
+  imageWidth: 60
+  dimmensions: 150 x 150 cm.
+  year: 2020
+  price: "2.700€ | Leihpreis: 135€/Monat"
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      150 x 150 cm.
+      Created in 2020
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      150 x 150 cm.
+      Créée en 2020
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      150 x 150 cm.
+      Created in 2020
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+
+- title: Dreamcatcher 6
+  image: /collection1/Dreamcatcher-6.jpg
+  imageWidth: 60
+  dimmensions: 100 x 100 cm.
+  year: 2020
+  price: "1.200€ | Leihpreis: 60€/Monat"
+  description:
+    en-GB: |
+      Acrylic and Spray Paint on Canvas (Chassis)
+      100 x 100 cm.
+      Created in 2020
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique et Peinture Aérosole sur Toile (Châssis)
+      100 x 100 cm.
+      Créée en 2020
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl und Spray auf Leinwand
+      100 x 100 cm.
+      Created in 2020
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Dreamcatcher 7
+  image: /collection1/Dreamcatcher-7.jpg
+  imageWidth: 60
+  dimmensions: 100 x 100 cm.
+  year: 2020
+  price: "1.200€ | Leihpreis: 60€/Monat"
+  description:
+    en-GB: |
+      Acrylic and Spray Paint on Canvas (Chassis)
+      100 x 100 cm.
+      Created in 2020
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique et Peinture Aérosole sur Toile (Châssis)
+      100 x 100 cm.
+      Créée en 2020
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl und Spray auf Leinwand
+      100 x 100 cm.
+      Created in 2020
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+
+- title: Dreamcatcher 8
+  image: /collection1/Dreamcatcher-8.jpg
+  imageWidth: 60
+  dimmensions: 100 x 100 cm.
+  year: 2020
+  price: "1.350€ | Leihpreis: 67€/Monat"
+  description:
+    en-GB: |
+      Acrylic and Spray Paint on Canvas (Chassis)
+      100 x 100 cm.
+      Created in 2020
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique et Peinture Aérosole sur Toile (Châssis)
+      100 x 100 cm.
+      Créée en 2020
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl und Spray auf Leinwand
+      100 x 100 cm.
+      Created in 2020
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Dreamcatcher 10
+  image: /collection1/Dreamcatcher-10.jpg
+  imageWidth: 60
+  dimmensions: 155 x 155 cm.
+  year: 2020
+  price: "2.700€ | Leihpreis: 135€/Monat"
+  description:
+    en-GB: |
+      Acrylic and Spray Paint on Canvas (Chassis)
+      155 x 155 cm.
+      Created in 2020
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique et Peinture Aérosole sur Toile (Châssis)
+      155 x 155 cm.
+      Créée en 2020
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl und Spray auf Leinwand
+      155 x 155 cm.
+      Created in 2020
+      Handsigniert vom künstler
+      chtheitsbescheinigung   
+
+- title: Feeling the Summer 1
+  image: /collection1/Feeling-the-Summer-1.jpg
+  imageWidth: 60
+  dimmensions: 150 x 150 cm.
+  year: 2017
+  price: "2.700€ | Leihpreis: 135€/Monat"
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      150 x 150 cm.
+      Created in 2017
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      150 x 150 cm.
+      Créée en 2017
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      150 x 150 cm.
+      Created in 2017
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Feeling the Summer 2
+  image: /collection1/Feeling-the-Summer-2.jpg
+  imageWidth: 60
+  dimmensions: 150 x 150 cm.
+  year: 2017
+  price: 2.700€
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      150 x 150 cm.
+      Created in 2017
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      150 x 150 cm.
+      Créée en 2017
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      150 x 150 cm.
+      Created in 2017
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Feel Free
+  image: /collection1/Feel-Free.jpg
+  imageWidth: 60
+  dimmensions: 150 x 150 cm.
+  year: 2020
+  price: "2.700€ | Leihpreis: 135€/Monat"
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      150 x 150 cm.
+      Created in 2020
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      150 x 150 cm.
+      Créée en 2020
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      150 x 150 cm.
+      Created in 2020
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Empreintes Printanières 
+  image: /collection1/Empreintes-Printanieres.jpg
+  imageWidth: 60
+  dimmensions: 120 x 150 cm.
+  year: 2017
+  price: 
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      120 x 150 cm.
+      Created in 2017
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      120 x 150 cm.
+      Créée en 2017
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      120 x 150 cm.
+      Created in 2017
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+
+- title: Empreintes Végétales 
+  image: /collection1/Empreintes-Vegetales-A.jpg
+  imageWidth: 60
+  dimmensions: 120 x 150 cm.
+  year: 2017
+  price: "2.100€"
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      120 x 150 cm.
+      Created in 2017
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      120 x 150 cm.
+      Créée en 2017
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      120 x 150 cm.
+      Created in 2017
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+
+- title: Empreintes Végétales B
+  image: /collection1/Empreintes-Vegetales-B.jpg
+  imageWidth: 60
+  dimmensions: 120 x 150 cm.
+  year: 2017
+  price: "2.100€"
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      120 x 150 cm.
+      Created in 2017
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      120 x 150 cm.
+      Créée en 2017
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      120 x 150 cm.
+      Created in 2017
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+
+- title: Totem 1
+  image: /collection1/Totem-1.jpg
+  imageWidth: 60
+  dimmensions: 30 x 150 cm.
+  year: 2021
+  price: "750€"
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      30 x 150 cm.
+      Created in 2021
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      30 x 150 cm.
+      Créée en 2021
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      30 x 150 cm.
+      Created in 2021
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Totem 2
+  image: /collection1/Totem-2.jpg
+  imageWidth: 60
+  dimmensions: 30 x 150 cm.
+  year: 2021
+  price: "750€"
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      30 x 150 cm.
+      Created in 2021
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      30 x 150 cm.
+      Créée en 2021
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      30 x 150 cm.
+      Created in 2021
+      Handsigniert vom künstler
+      chtheitsbescheinigung  
+
+- title: Totem 3
+  image: /collection1/Totem-3.jpg
+  imageWidth: 60
+  dimmensions: 30 x 150 cm.
+  year: 2021
+  price: "750€"
+  description:
+    en-GB: |
+      Acrylic on Canvas (Chassis)
+      30 x 150 cm.
+      Created in 2021
+      Work Hand-signed by the Artist
+      Certificate of Authenticity
+    fr-FR: |
+      Acrylique sur Toile (Châssis)
+      30 x 150 cm.
+      Créée en 2021
+      Oeuvre signée à la main par l'Artiste
+      Avec Certificat d'Authenticité
+    de-DE: |
+      Acryl auf Leinwand
+      30 x 150 cm.
+      Created in 2021
       Handsigniert vom künstler
       chtheitsbescheinigung  
