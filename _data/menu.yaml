@@ -1,20 +1,20 @@
 - name: 
-    en: HOME
-    fr: HOME
-    de: HOME
+    en-GB: HOME
+    fr-FR: HOME
+    de-DE: HOME
   href: /
 - name:
-    en: EXPO
-    fr: EXPO
-    de: ausstellung
+    en-GB: EXPO
+    fr-FR: EXPO
+    de-DE: ausstellung
   href: /#expo
 - name:
-    en: WORKS
-    fr: OEUVRES
-    de: WORKS
+    en-GB: WORKS
+    fr-FR: OEUVRES
+    de-DE: WORKS
   href: /artwork
 - name:
-    en: C.V.
-    fr: C.V.
-    de: C.V.
+    en-GB: C.V.
+    fr-FR: C.V.
+    de-DE: C.V.
   href: /cv

@@ -4,13 +4,30 @@ exports.data = {
 	title: "default Title",
 	baseHref: "https://loremIpsum.com",	
 	description: "",
-	rating: "General",
-	lang: "en-GB"
-
+	rating: "General"
 };
 
 exports.render = function(data)
 {
+	let langTag = null;
+	switch ( data.page.url.substring(0, 7) )
+	{
+		case '/en-GB/' :
+			data.page.local = 'en-GB';
+			langTag = 'en-GB';
+			break;
+		case '/fr-FR/' :
+			data.page.local = 'fr-FR';
+			langTag = 'fr';
+			break;
+		case '/de-DE/' :
+			data.page.local = 'de-DE';
+			langTag = 'de';
+			break;
+		default :
+			data.page.local = 'en-GB';
+			break;
+	}
 	let renderedContent = `
 <!doctype html>
 <html>
@@ -46,10 +63,10 @@ exports.render = function(data)
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"> 
 		<script src="/assets/js/gallery.js" defer></script>
 	</head>
-	<body class="body" __lang="${data.lang}">`;
+	<body class="body" ${langTag?'lang="' + langTag + '"':''}>`;
 
 	let i = 0;
-	while ( data.sections[i] != undefined )
+	while ( Boolean(data.sections[i]) )
 	{
 		try
 		{

@@ -7,7 +7,7 @@ exports.render = function ( content, pagedata )
 			<div class="landing__content__description">
 				<span class="landing__content__description__text">${content.subTitle}</span>`;
 	let i = 0;
-	while (content.button[i] != undefined)
+	while ( Boolean(content.button[i]) )
 	{
 		output += `
 				<a href="${content.button[i].href}" class="landing__content__description__callToAction">${content.button[i].text}</a>`;

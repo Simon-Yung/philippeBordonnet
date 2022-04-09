@@ -7,7 +7,7 @@ exports.render = function ( content, pagedata )
 				<div class="footer__top">
 					<hr class="footer__top__hr footer__top__hr--left">`;
 	let i = 0;
-	while ( pagedata.social[i] != undefined )
+	while ( Boolean(pagedata.social[i]) )
 	{
 		output += `
 					<a href="${pagedata.social[i].href}"><img class="footer__top__img" src="${this.imgCopy(pagedata.social[i].icon).url}"></a>`
@@ -26,31 +26,10 @@ exports.render = function ( content, pagedata )
 						<h3>Site Map :</h3>
 						<ul>`
 	i = 0;
-	let lang = '';
-	let langHref = '';
-	switch ( pagedata.page.url.substring(6, 8) )
-	{
-		case 'en' :
-			lang = 'en';
-			langHref = '';
-			break;
-		case 'fr' :
-			lang = 'fr';
-			langHref = '/lang=fr';
-			break;
-		case 'de' :
-			lang = 'de';
-			langHref = '/lang=de';
-			break;
-		default :
-			lang = 'en';
-			langHref = '';
-			break;
-	}
-	while ( pagedata.menu[i] != undefined )
+	while ( Boolean(pagedata.menu[i]) )
 	{
 		output += `
-						<li><a href="${langHref}${pagedata.menu[i].href}">${pagedata.menu[i].name[lang]}</a></li>`
+						<li><a href="/${pagedata.page.local}${pagedata.menu[i].href}">${pagedata.menu[i].name[pagedata.page.local]}</a></li>`
 		i++;
 	}
 	output += `

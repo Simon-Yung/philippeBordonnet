@@ -11,9 +11,9 @@ sections:
       subTitle: Philippe Bordonnet | Artist
       button:
         - text: EXPOSITION
-          href: "/index.html#expo"
+          href: "/en-GB/index.html#expo"
         - text: WORK
-          href: "/artwork"
+          href: "/en-GB/artwork"
 
   - type: "header"
     content:
@@ -30,7 +30,7 @@ sections:
         to wash over him free of restraints, withthe energy of life
         and the occasionally extravagant daze of spontaneous emotions !  
         &nbsp;  
-        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABESTRACTION**
+        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABSTRACTION**
 
   - type: "textAndImage"
     content:
@@ -71,7 +71,7 @@ sections:
 
         Inspired, **Philippe Bordonnet** appears to impose colors and movements to wash over him free of restraints, with the energy of life and the occasionally extravagant daze of spontaneous emotions !  
         &nbsp;  
-        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABESTRACTION**  
+        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABSTRACTION**  
         &nbsp;  
         The truths he expresses seem to frame his "gestures" and offer a contemporary poetry that permits us some jubilant lapses.  
         &nbsp;  
