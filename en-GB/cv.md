@@ -12,9 +12,16 @@ sections:
       id: 
       banner: Philippe Bordonnet
       text: | 
-        Philippe Bordonnet ist ein Künstler. Er lässt sich inspirieren von Farben und Bewegungen. Diese verbindet er mit seiner überwältigenden Energie und mitreissenden Emotionen. Seine Ausdruckskraft schafft eine plastische Abstraktion hiervon. Seine ausgedrückten Wahrheiten scheinen seine "Gesten" zu strukturieren und bieten eine zeitgenössische Poesie, die uns einige begeisternde Reisen ermöglicht.  
-        Dieser Mann liebt das Leben. Er weiß es zu entdecken und es zu verstehen. Zweifellos gewinnt er seine Inspirationen und seine Ideen aus der Natur, aus den Menschen und ihren Einstellungen. So steuert er ungehemmt auf sein Ziel zu und bietet uns eine "Einführung in das Thema", die für uns Beobachter eine beeindruckende und offensichtliche Reise der Gefühle und der Aufregungen sein wird.  
-        Geboren wurde Philipppe Bordonnet 1973 in Ingwiller (Elsass-Frankreich) / Galerist / Künstler / Inspirationen, Gerhard Richter und Franz Kline  
+        Inspired, **Philippe Bordonnet** appears to impose colors and movements to wash over him free of restraints, with the energy of life and the occasionally extravagant daze of spontaneous emotions !  
+        
+        **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABSTRACTION**  
+        
+        The truths he expresses seem to frame his "gestures" and offer a contemporary poetry that permits us some jubilant lapses.  
+        
+        This man loves life, and knows to explore and understand it. No doubt therein lie his inspirations, his fulgurances.
+        Nature, people, their attidudes... It is thus, without restraint, that he reaches out to his destination and presents us with an " introductory scene" which for us, the viewers, will be a formidable and evident journey of emotions and excitements....  
+        
+        **Born in 1973 in Ingwiller (Alsace-France) / Gallery owner/Artist/ Inspirations, Gerhard Richter and Franz Kline**  
 
   - type: "hr"
     content:

@@ -11,9 +11,9 @@ sections:
       subTitle: Philippe Bordonnet | Artiste
       button:
         - text: EXPOSITION
-          href: "/lang=fr/index.html#expo"
-        - text: WORK
-          href: "/lang=fr/artwork"
+          href: "/fr-FR/index.html#expo"
+        - text: OEUVRES
+          href: "/fr-FR/artwork"
 
   - type: "header"
     content:
@@ -29,7 +29,7 @@ sections:
         Inspiré, **Philippe Bordonnet** semble imposer couleurs et mouvements
         pour s'immerser sans contraintes, avec l'énergie d'une vie
         et l'étourdissement parfois extravagant d'émotions spontanées !
-          
+        
         **SON EXPRESSION RESTE CELLE D'UNE ABSTRACTION FIGURATIVE**
 
   - type: "textAndImage"
@@ -67,17 +67,17 @@ sections:
     content:
       id:
       text: | 
-        #PHILIPPE BORDONNET  
+        # PHILIPPE BORDONNET  
 
         Inspiré, **Philippe Bordonnet** semble imposer couleurs et mouvements pour s'immerser sans contraintes, avec l'énergie d'une vie et l'envolée parfois extravagante d'émotions spontanées !  
-          
+        
         **SON EXPRESSION EST CELLE D'UNE ABSTRACTION FIGURATIVE**  
-          
+        
         Les vérités qu'il exprime semblent encadrer ses "gestes" et offrir une poésie contemporaine qui nous permet quelques lapsus jubilatoires.  
-          
+        
         Cet homme aime la vie, et sait l'explorer et la comprendre. Sans doute là sont ses inspirations, ses fulgurances.  
         La nature, les gens, leurs attitudes... C'est ainsi, sans retenue, qu'il tend la main vers sa destination et nous présente une « scène d'introduction » qui sera pour nous, spectateurs, un formidable et évident voyage d'émotions et d'émotions....  
-          
+        
         **Né en 1973 à Ingwiller (Alsace-France) / Galeriste/Artiste/ Inspirations, Gerhard Richter et Franz Kline**  
 
   - type: "footer"

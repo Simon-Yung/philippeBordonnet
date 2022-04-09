@@ -15,15 +15,11 @@ sections:
         image: "/works/img.jpg"
         title: Empreintes Végétales
         description: |
-          Acrylic and Spray paint on Canvas (Châssis)  
-            
+          Acrylique et Peinture Aérosol sur Toile (Châssis)  
           120 x 150 cm.  
-            
-          This Work was created in 2017  
-            
-          This Work is Hand-signed by the Artist  
-            
-          Certificate of Authenticity  
+          Créée en 2017  
+          Oeuvre signée à la main par l'Artiste  
+          Avec Certificat d'Authenticité
 
   - type: "footer"
     content:

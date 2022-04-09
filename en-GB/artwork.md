@@ -16,14 +16,10 @@ sections:
         title: Empreintes Végétales
         description: |
           Acrylic and Spray paint on Canvas (Châssis)  
-            
           120 x 150 cm.  
-            
           This Work was created in 2017  
-            
-          This Work is Hand-signed by the Artist  
-            
-          Certificate of Authenticity  
+          Work Hand-signed by the Artist  
+          Certificate of Authenticity
 
   - type: "footer"
     content:

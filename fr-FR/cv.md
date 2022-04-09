@@ -12,31 +12,22 @@ sections:
       id: 
       banner: Philippe Bordonnet
       text: | 
-        Philippe Bordonnet ist ein Künstler. Er lässt sich inspirieren von Farben und Bewegungen. Diese verbindet er mit seiner überwältigenden Energie und mitreissenden Emotionen. Seine Ausdruckskraft schafft eine plastische Abstraktion hiervon. Seine ausgedrückten Wahrheiten scheinen seine "Gesten" zu strukturieren und bieten eine zeitgenössische Poesie, die uns einige begeisternde Reisen ermöglicht.  
-        Dieser Mann liebt das Leben. Er weiß es zu entdecken und es zu verstehen. Zweifellos gewinnt er seine Inspirationen und seine Ideen aus der Natur, aus den Menschen und ihren Einstellungen. So steuert er ungehemmt auf sein Ziel zu und bietet uns eine "Einführung in das Thema", die für uns Beobachter eine beeindruckende und offensichtliche Reise der Gefühle und der Aufregungen sein wird.  
-        Geboren wurde Philipppe Bordonnet 1973 in Ingwiller (Elsass-Frankreich) / Galerist / Künstler / Inspirationen, Gerhard Richter und Franz Kline  
+        Inspiré, **Philippe Bordonnet** semble imposer couleurs et mouvements pour s'immerser sans contraintes, avec l'énergie d'une vie et l'envolée parfois extravagante d'émotions spontanées !  
+        
+        **SON EXPRESSION EST CELLE D'UNE ABSTRACTION FIGURATIVE**  
+        
+        Les vérités qu'il exprime semblent encadrer ses "gestes" et offrir une poésie contemporaine qui nous permet quelques lapsus jubilatoires.  
+        
+        Cet homme aime la vie, et sait l'explorer et la comprendre. Sans doute là sont ses inspirations, ses fulgurances.  
+        La nature, les gens, leurs attitudes... C'est ainsi, sans retenue, qu'il tend la main vers sa destination et nous présente une « scène d'introduction » qui sera pour nous, spectateurs, un formidable et évident voyage d'émotions et d'émotions....  
+        
+        **Né en 1973 à Ingwiller (Alsace-France) / Galeriste/Artiste/ Inspirations, Gerhard Richter et Franz Kline**  
 
   - type: "hr"
     content:
       id: 
       href:
       text: 
-
-  - type: "collapsibleText"
-    content:
-      id: 
-      text: |
-        # curriculum
-        ## Heute um 19:00
-          
-        Uhr findet der letzte Live-Painting Event unserer Reihe statt.  
-          
-        **Ania Dziezewska** und **Volker Scheurer** schaffen ein Bild zum Musik der Gruppe Kraftwerk, vor allem dem Titel Metropolis aus dem Jahr 1978,  
-          
-        Dabei verwenden sie japanische Tusche ebenso wie Acrylfarbe und Markerstifte. Sie werden zusammen an einem Bild arbeiten, was einen Spannungsbogen erzeugt.  
-          
-        Etwa 20 Minuten werden sich die beiden Künstler von der Musik tragen und inspirieren lassen. Die Idee dazu entstand 2019 bei einem Event im Kieswerk Weil, wo ein Wandaltar geschaffen wurde.  
-        Anschließend werden die Kunstwerke der an der Live Performance beteiligten Künstler für drei Wochen in der Galerie zu den üblichen Öffnungszeiten gezeigt werden: Elena Politowa, Ania Dziezewska, Alexandru Musteata, Volker Scheurer, Philippe Bordonnet und die Skulpturen von Hans-Peter Zöllin. Weitere und ergänzte Videos und Bilder der vergangenen zwei Wochen finden Sie hier: https://kunst-unter-uns.de/category/ausstellung/
 
   - type: "footer"
     content:
