@@ -58,6 +58,9 @@ strong{
 	--main-h1-font: 200 2rem/1 'Playfair Display', serif;
 	}
 }
+h1:empty,h2:empty,h3:empty,p:empty,em:empty,strong:empty{
+	display: none;
+}
 
 .body{
 	display: flex;
@@ -293,6 +296,7 @@ strong{
 }
 
 .textAndImage{
+	width: 100%;
 	margin: 0 auto 0rem auto;
 	padding: 0 2rem;
 	position: relative;
@@ -407,7 +411,7 @@ strong{
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 	align-items: stretch;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 .grid__article__img{
 	width: 100%;
@@ -416,6 +420,7 @@ strong{
 	max-height: 80vw;
 	border: 3px solid var(--color-default);
 	outline: 1px solid var(--color-dark);
+	cursor: pointer;
 }
 .grid__article p{
 	font: var(--main-p-font);
@@ -424,9 +429,10 @@ strong{
 	line-height: 1.0;
 }
 .grid__article strong{
+	margin: 0.5rem 0;
 	font: var(--main-h1-font);
 	font-size: 1.5rem;
-	line-height: 1.5;
+	line-height: 0.8;
 	font-weight: 400;
 	color: var(--color-dark);
 }
