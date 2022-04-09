@@ -55,7 +55,7 @@ module.exports = (eleventyConfig) => {
 			let metadata = Image.statsSync(`./img${file}`, options );
 			return {
 				thumbnailUrl : metadata.jpeg[0].url,
-				OGUrl : metadata.jpeg[1].url,
+				OGUrl : `${metadata.jpeg[1]?metadata.jpeg[1].url:metadata.jpeg[0].url}`,
 				heightRatio : Math.round(metadata.jpeg[0].height / metadata.jpeg[0].width * 100), // height is ??? percent of the width
 				widthRatio : Math.round(metadata.jpeg[0].height / metadata.jpeg[0].width * 100) // width is ??? percent of the height
 			}
