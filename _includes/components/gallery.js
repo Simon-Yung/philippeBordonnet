@@ -3,16 +3,16 @@ var md = require('markdown-it')();
 exports.render = function ( content, pagedata )
 {
 	let output = `
-			<section id="gallery" class="textAndImage">
-				<img id="preview" class="textAndImage__image" style="width: calc( ${content.default.imageWidth}% - 3rem );" src="${this.imgCopy(content.default.image).url}">
+			<section _id="gallery" class="textAndImage">
+				<img _id="preview" class="textAndImage__image" style="width: calc( ${content.default.imageWidth}% - 3rem );" src="${this.imgCopy(content.default.image).url}">
 
-				<article id="text" class="textAndImage__description" style="width: calc( ${100 - content.default.imageWidth}% - 3rem );">
-					<div class="textAndImage__banner"><h1 id="title" style="font-size:2rem">${content.default.title}</h1></div>
-					<h3 id="price"></h3>
-					<p id="description" style="line-height:2.0">${content.default.description.replace(/(\r\n|\r|\n)/g,'<br>')}</p>
+				<article _id="text" class="textAndImage__description" style="width: calc( ${100 - content.default.imageWidth}% - 3rem );">
+					<div class="textAndImage__banner"><h1 _id="title" style="font-size:2rem">${content.default.title}</h1></div>
+					<h3 _id="price"></h3>
+					<p _id="description" style="line-height:2.0">${content.default.description.replace(/(\r\n|\r|\n)/g,'<br>')}</p>
 				</article>
 			</section>
-			<section class="grid">`
+			<section class="grid" id="gallery">`
 	let i = 0;
 	let quickDesc = '';
 	switch ( pagedata.page.local )
@@ -58,7 +58,19 @@ exports.render = function ( content, pagedata )
 		++i
 	}
 	output += `
-			</section>`
+			</section>
+			<modal-window id="modal" class="modal">
+				<modal-content id="modalContent" class="modal__content">
+					<button id="close" class="modal__button"><img class="modal__button__img" src="/assets/img/close.png"></button>
+					<img id="preview" class="modal__image">
+
+					<article id="text" class="textAndImage__description modal__description">
+						<div class="textAndImage__banner"><h1 id="title" style="font-size:2rem">${content.default.title}</h1></div>
+						<h3 id="price"></h3>
+						<p id="description" style="line-height:2.0"></p>
+					</article>
+				</modal-content>
+			</modal-window>`
 
 
 return output;

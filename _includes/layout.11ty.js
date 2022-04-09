@@ -38,7 +38,7 @@ exports.render = function(data)
 		<title>${data.title}</title>
 		<meta http-equiv="Content-Security-Policy" content="
 			default-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://fonts.googleapis.com/css2?;
-			img-src 'self' https://;
+			img-src 'self' https://*;
 			script-src 'self';
 			style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/ https://fonts.gstatic.com/ https://fonts.googleapis.com/css2?;
 		">
