@@ -48,8 +48,10 @@ function openModal(e)
 	modal.style.display = 'block';
 	preview.src = dom.dataset.imgUrl;
 	preview.style.opacity = '0.0';
-	background.src = dom.dataset.thumbUrl;
 	preview.addEventListener( 'load' , (e) => {e.target.style.opacity = '1.0'} , {once: true} )
+	background.src = dom.dataset.thumbUrl;
+	background.style.filter = 'blur(10px)';
+	background.addEventListener( 'load' , (e) => {e.target.style.filter = ''} , {once: true} )
 	title.innerHTML = dom.dataset.title?dom.dataset.title:'';
 	price.innerHTML = dom.dataset.price?dom.dataset.price:'';
 	description.innerHTML = dom.dataset.desc?dom.dataset.desc:'';
