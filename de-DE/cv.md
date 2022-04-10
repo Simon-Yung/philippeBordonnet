@@ -1,6 +1,6 @@
 ---
 layout: layout.11ty.js
-title: Page Title
+title: Philippe Bordonnet | Biografie
 sections:
   - type: "header"
     content:

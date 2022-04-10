@@ -1,6 +1,6 @@
 ---
 layout: layout.11ty.js
-title: Page Title
+title: Philippe Bordonnet | Künstler
 sections:
 
   - type: "landing"
