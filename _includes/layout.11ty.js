@@ -37,10 +37,11 @@ exports.render = function(data)
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=auto">
 		<title>${data.title}</title>
 		<meta http-equiv="Content-Security-Policy" content="
-			default-src 'self' https://fonts.googleapis.com/* https://fonts.gstatic.com/* https://fonts.googleapis.com/css2?*;
-			img-src 'self' https://*;
+			default-src 'self';
+			img-src 'self' https://;
 			script-src 'self';
-			style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/* https://fonts.gstatic.com/* https://fonts.googleapis.com/css2?*;
+			style-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com/;
+			font-src 'self' *.googleapis.com *.gstatic.com;
 		">
 		<!-- Base URL to use for all relative URLs contained within the document -->
 		<!-- <base href="${data.baseHref}"> -->
