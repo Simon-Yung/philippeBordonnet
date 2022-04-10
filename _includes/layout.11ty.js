@@ -54,7 +54,7 @@ exports.render = function(data)
 		<!-- General, 14 Years, Mature or Restricted -->
 		<meta name="rating" content="${data.rating}">
 		<!-- Search engine robots Meta Tags. -->
-		<meta name="robots" content="index, follow"> 
+		<meta name="robots" content="noindex, follow"> 
 		<!-- Favicon Meta Tags. -->
 		<link rel="icon" href="/favicon.ico">
 		<link rel="icon" href="/favicon-32.png" type="image/png">
