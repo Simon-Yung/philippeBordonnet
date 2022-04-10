@@ -44,7 +44,8 @@ exports.render = function ( content, pagedata )
 				data-year="${currentWork.year?currentWork.year:''}"
 				data-price="${currentWork.price?currentWork.price:''}"
 				data-desc="${currentWork.description[pagedata.page.local]?currentWork.description[pagedata.page.local].replace(/(\r\n|\r|\n)/g,'<br>'):''}">
-					<img class="grid__article__img" src="${img.thumbnailUrl}" 
+					<img class="grid__article__img" src="${img.thumbnailUrl}"
+					alt="${currentWork.title?currentWork.title:''}"
 					loading="lazy"
 					style="aspect-ratio: 100/${img.heightRatio}">
 					<strong>${currentWork.title}</strong>
@@ -62,7 +63,10 @@ exports.render = function ( content, pagedata )
 			<modal-window id="modal" class="modal">
 				<modal-content id="modalContent" class="modal__content">
 					<button id="close" class="modal__button"><img class="modal__button__img" src="/assets/img/close.png"></button>
-					<img id="preview" class="modal__image">
+					<modal-image id="modal_image" class="modal__image">
+						<img id="background" class="modal__image__background">
+						<img id="preview" class="modal__image__main">
+					</modal-image>
 
 					<article id="text" class="textAndImage__description modal__description">
 						<div class="textAndImage__banner"><h1 id="title" style="font-size:2rem">${content.default.title}</h1></div>
