@@ -30,6 +30,22 @@ exports.render = function ( content, pagedata )
 			quickDesc = 'Work Hand-signed by the Artist<br>Certificate of Authenticity';
 			break;
 	}
+	let sold = '';
+	switch ( pagedata.page.local )
+	{
+		case 'en-GB' :
+			sold = '( Sold )';
+			break;
+		case 'fr-FR' :
+			sold = '( Vendue )';
+			break;
+		case 'de-DE' :
+			sold = '( verkauft )';
+			break;
+		default :
+			sold = '( Sold )';
+			break;
+	}
 	while ( Boolean(pagedata.artworkCollections[content.collection][i]) )
 	{
 		let currentWork = pagedata.artworkCollections[content.collection][i];
@@ -42,7 +58,7 @@ exports.render = function ( content, pagedata )
 				data-title="${currentWork.title?currentWork.title:''}"
 				data-dimmensions="${currentWork.dimmensions?currentWork.dimmensions:''}"
 				data-year="${currentWork.year?currentWork.year:''}"
-				data-price="${currentWork.price?currentWork.price:''}"
+				data-price="${currentWork.price?currentWork.price.replace(/sold/i, sold):''}"
 				data-desc="${currentWork.description[pagedata.page.local]?currentWork.description[pagedata.page.local].replace(/(\r\n|\r|\n)/g,'<br>'):''}">
 					<img class="grid__article__img" src="${img.thumbnailUrl}"
 					alt="${currentWork.title?currentWork.title:''}"
@@ -50,11 +66,9 @@ exports.render = function ( content, pagedata )
 					style="aspect-ratio: 100/${img.heightRatio}">
 					<strong>${currentWork.title}</strong>
 					<p>
-					${currentWork.dimmensions}<br>
-					Created in ${currentWork.year}<br>
+					${currentWork.dimmensions?currentWork.dimmensions:''}<br>
+					Created in ${currentWork.year?currentWork.year:''}<br>
 					${quickDesc}</p>
-					<!-- <p>
-					${currentWork.year?currentWork.year:''} <br> ${currentWork.dimmensions?currentWork.dimmensions:''}</p> -->
 				</article>`
 		++i
 	}
@@ -63,15 +77,15 @@ exports.render = function ( content, pagedata )
 			<modal-window id="modal" class="modal">
 				<modal-content id="modalContent" class="modal__content">
 					<button id="close" class="modal__button"><img class="modal__button__img" src="/assets/img/close.png"></button>
-					<modal-image id="modal_image" class="modal__image">
+
 						<img id="background" class="modal__image__background">
 						<img id="preview" class="modal__image__main">
-					</modal-image>
+
 
 					<article id="text" class="textAndImage__description modal__description">
-						<div class="textAndImage__banner"><h1 id="title" style="font-size:2rem">${content.default.title}</h1></div>
-						<h3 id="price"></h3>
-						<p id="description" style="line-height:2.0"></p>
+						<div class="textAndImage__banner modal__banner"><h1 id="title">${content.default.title}</h1></div>
+						<h3 id="price" class="modal_h3"></h3>
+						<p id="description" class="modal__p" ></p>
 					</article>
 				</modal-content>
 			</modal-window>`

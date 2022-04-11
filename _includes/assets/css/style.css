@@ -459,23 +459,17 @@ h1:empty,h2:empty,h3:empty,p:empty,em:empty,strong:empty{
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	padding: 1rem;
 	background-color: #ffffffcc;
-	overflow-y: scroll;
-	overflow-x: hidden;
+	overflow: auto;
 }
 .modal__content{
-	position: relative;
-	width: 100%;
-	min-height: 100%;
-	height: auto;
-	max-height: 100%;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	align-items: stretch;
-	justify-content: center;
-	gap: 1rem;
+	height: 97vh;
+	width: 97vw;
+	display: grid;
+	grid-template-columns: 65vw 32vw;
+	grid-template-rows: auto auto;
+	gap: 1vw;
+	margin: 1vh 1vw ;
 }
 .modal__button{
 	position: fixed;
@@ -498,40 +492,68 @@ h1:empty,h2:empty,h3:empty,p:empty,em:empty,strong:empty{
 	height: 2rem;
 	width: 2rem;
 }
-.modal__image{
-	position: relative;
-	flex-grow: 1;
-	flex-basis: 65%;
-	width: 65%;
-	align-self: stretch;
-	object-fit: contain;
-	cursor: zoom-in;
-}
 .modal__image__background{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	width: auto;
+	height: 97vh;
+	justify-self: stretch;
+	align-self: stretch;
 	object-fit: contain;
 }
 .modal__image__main{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	width: auto;
+	height: 97vh;
+	justify-self: stretch;
+	align-self: stretch;
 	object-fit: contain;
 }
 .modal__description{
-	flex-grow: 1;
-	flex-basis: 35%;
-	width: 35%;
-	height: auto;
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	width: 32vw;
+	justify-self: stretch;
+	align-self: stretch;
 }
-
-
-
+.modal__banner{
+	margin-bottom: 1rem;
+	min-width: unset;
+}
+.modal__banner h1{
+	font-size:2rem;
+}
+.modal_h3{
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.modal__p{
+	line-height: 1.5 !important; /* sorry */
+}
+@media (max-width: 850px){
+	.modal__image__background{
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+		width: 97vw !important;
+		height: auto !important;/*ugly hack*/
+	}
+	.modal__image__main{
+		grid-column: 1 / 3;
+		grid-row: 1 / 2;
+		width: 97vw !important;
+		height: auto !important;/*ugly hack*/
+	}
+	.modal__description{
+		grid-column: 1 / 3;
+		grid-row: 2 / 3;
+		width: 97vw !important;
+		height: auto !important;/*ugly hack*/
+	}
+	.modal__description{
+		display: block !important;
+	}
+}
 
 
 

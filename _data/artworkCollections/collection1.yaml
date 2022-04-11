@@ -111,7 +111,7 @@
   imageWidth: 60
   dimmensions: 90 x 120 cm.
   year: 2022
-  price: 1.800€
+  price: sold
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -295,7 +295,7 @@
       Echtheitsbescheinigung
 
 
-- title: VERKAUFT – El Vesuvio
+- title: El Vesuvio
   image: /collection1/El-Vesuvio.jpg
   imageWidth: 60
   dimmensions:
@@ -321,7 +321,7 @@
   imageWidth: 60
   dimmensions:
   year:
-  price:
+  price: sold
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -424,7 +424,7 @@
   imageWidth: 60
   dimmensions: 100 x 100 cm.
   year: 2021
-  price: 1.400€
+  price: sold
   description:
     en-GB: |
       Acrylic and Spray Paint on Canvas (Chassis)
@@ -738,7 +738,7 @@
   imageWidth: 60
   dimmensions: 120 x 150 cm.
   year: 2017
-  price: 
+  price: sold
   description:
     en-GB: |
       Acrylic on Canvas (Chassis)
@@ -760,7 +760,7 @@
       chtheitsbescheinigung  
 
 
-- title: Empreintes Végétales 
+- title: Empreintes Végétales A
   image: /collection1/Empreintes-Vegetales-A.jpg
   imageWidth: 60
   dimmensions: 120 x 150 cm.
