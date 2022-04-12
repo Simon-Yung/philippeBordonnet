@@ -36,16 +36,16 @@ sections:
       image: "/expo.jpg"
       text: | 
         ## Wann ? Wo ?  
-        ### • KUNST UNTER UNS GALLERY  
+        ### • Kunst Unter Uns Gallerie  
         Basler Strasse 27  
-        79540 Lörrach  
-        +33 612 56 73 15  
-        kunst@kunst-unter-uns.de  
+        79540 Lörrach (Deutschland)  
+        [+33 612 56 73 15](tel:0033612567315)  
+        [kunst@kunst-unter-uns.de](mailto:kunst@kunst-unter-uns.de)  
 
         ### • PcaGalleryArt || Artistic Agency-Gallery  
-        pcagalleryart.com  
-        +34 655 94 52 46  
-        pcagalleryart@gmail.com  
+        [pcagalleryart.com](https://pcagalleryart.com)  
+        [+34 655 94 52 46](tel:0034655945246)  
+        [pcagalleryart@gmail.com](mailto:pcagalleryart@gmail.com)  
 
         ### • B.Arte Galeria  
         Einzelperson Ausstellung  
@@ -55,8 +55,8 @@ sections:
         ### • Jean-Luc Moreau Galerie  
         Gemeinsam Ausstellung  
         Lille (France)  
-        33 610 16 74 16  
-        contact@galeriejlmoreau.fr  
+        [+33 610 16 74 16](tel:0033610167416)  
+        [contact@galeriejlmoreau.fr](mailto:contact@galeriejlmoreau.fr)  
         From April 1, 2022  
 
   - type: "simpleText"
