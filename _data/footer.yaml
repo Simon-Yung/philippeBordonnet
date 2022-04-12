@@ -1,12 +1,35 @@
-generalInfo: |
-  ### Philippe Bordonnet
-  Basler Strasse 27  
-  79540 Lörrach  
-  &nbsp;  
-  ### Kontakt  
-  Telefon: +33 612 56 73 15  
-  E-Mail: @email.com  
-miscInfo: |
-  ### Info :  
-  * [Privacy policy](#)  
-  * [EU dispute](#)  
+generalInfo: 
+    en-GB: |
+      ### Philippe Bordonnet
+      Basler Strasse 27  
+      79540 Lörrach Germany  
+      &nbsp;  
+      ### contact  
+      Tel: [+33 612 56 73 15](tel:0033612567315)  
+      E-Mail: [phbordonnet@gmail.com](mailto:phbordonnet@gmail.com)  
+    fr-FR: |
+      ### Philippe Bordonnet
+      Basler Strasse 27  
+      79540 Lörrach Allemagne  
+      &nbsp;  
+      ### Coordonnées  
+      Tel: [+33 612 56 73 15](tel:0033612567315)  
+      E-Mail: [phbordonnet@gmail.com](mailto:phbordonnet@gmail.com)  
+    de-DE: |
+      ### Philippe Bordonnet
+      Basler Strasse 27  
+      79540 Lörrach Deutschland  
+      &nbsp;  
+      ### Kontakt  
+      Tel: [+33 612 56 73 15](tel:0033612567315)  
+      E-Mail: [phbordonnet@gmail.com](mailto:phbordonnet@gmail.com)  
+miscInfo: 
+    en-GB: |
+      ### Info :  
+      * [Privacy policy](/en-gb/privacy)  
+    fr-FR: |
+      ### Info :  
+      * [Protection des données](/fr-fr/privacy)  
+    de-DE: |
+      ### Info :  
+      * [Datenschutzerklärung](/de-de/privacy)  

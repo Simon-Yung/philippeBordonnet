@@ -19,7 +19,7 @@ exports.render = function ( content, pagedata )
 				<div class="footer__body">
 					<section class="footer__body__info">
 		
-					${md.render(pagedata.footer.generalInfo)}
+					${md.render(pagedata.footer.generalInfo[pagedata.page.local])}
 		
 					</section>
 					<section class="footer__body__link">
@@ -37,7 +37,7 @@ exports.render = function ( content, pagedata )
 					</section>
 					<section class="footer__body__link">
 
-					${md.render(pagedata.footer.miscInfo)}
+					${md.render(pagedata.footer.miscInfo[pagedata.page.local])}
 
 					</section>
 				</div>
