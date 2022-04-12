@@ -11,10 +11,10 @@
 - name:
     en-GB: WORKS
     fr-FR: OEUVRES
-    de-DE: WORKS
+    de-DE: WERKE
   href: /artwork
 - name:
     en-GB: C.V.
     fr-FR: C.V.
-    de-DE: C.V.
+    de-DE: Lebenslauf
   href: /cv
