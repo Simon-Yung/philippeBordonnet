@@ -875,3 +875,11 @@ p a:hover,p a:focus{
 		gap: 0rem;
 	}
 }
+@media (max-width: 600px){
+	.footer__body__link ul{
+	list-style: none;
+	}
+	.footer__body{
+		overflow-x: auto;
+	}
+}
