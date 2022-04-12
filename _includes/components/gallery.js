@@ -13,7 +13,6 @@ exports.render = function ( content, pagedata )
 				</article>
 			</section>
 			<section class="grid" id="gallery">`
-	let i = 0;
 	let quickDesc = '';
 	switch ( pagedata.page.local )
 	{
@@ -28,6 +27,22 @@ exports.render = function ( content, pagedata )
 			break;
 		default :
 			quickDesc = 'Work Hand-signed by the Artist<br>Certificate of Authenticity';
+			break;
+	}
+	let createdIn = '';
+	switch ( pagedata.page.local )
+	{
+		case 'en-GB' :
+			createdIn = 'Created in ';
+			break;
+		case 'fr-FR' :
+			createdIn = 'Créée en ';
+			break;
+		case 'de-DE' :
+			createdIn = '- ';
+			break;
+		default :
+			createdIn = 'Created in ';
 			break;
 	}
 	let sold = '';
@@ -46,6 +61,7 @@ exports.render = function ( content, pagedata )
 			sold = '( Sold )';
 			break;
 	}
+	let i = 0;
 	while ( Boolean(pagedata.artworkCollections[content.collection][i]) )
 	{
 		let currentWork = pagedata.artworkCollections[content.collection][i];
@@ -67,7 +83,7 @@ exports.render = function ( content, pagedata )
 					<strong>${currentWork.title}</strong>
 					<p>
 					${currentWork.dimmensions?currentWork.dimmensions:''}<br>
-					Created in ${currentWork.year?currentWork.year:''}<br>
+					${currentWork.year? createdIn + currentWork.year:''}<br>
 					${quickDesc}</p>
 				</article>`
 		++i
