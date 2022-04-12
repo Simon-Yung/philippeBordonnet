@@ -6,7 +6,7 @@
 - name:
     en-GB: EXPO
     fr-FR: EXPO
-    de-DE: ausstellung
+    de-DE: AUSSTELLUNG
   href: /#expo
 - name:
     en-GB: WORKS
@@ -16,5 +16,5 @@
 - name:
     en-GB: C.V.
     fr-FR: C.V.
-    de-DE: Lebenslauf
+    de-DE: LEBENSLAUF
   href: /cv
