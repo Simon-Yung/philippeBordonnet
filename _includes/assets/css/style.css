@@ -62,6 +62,17 @@ strong{
 h1:empty,h2:empty,h3:empty,p:empty,em:empty,strong:empty{
 	display: none;
 }
+a{
+	text-decoration: none;
+	text-decoration-color: var(--color-dark);
+	color: var(--color-text-default);
+}
+a[href*="https://"]::after{
+	content: "";
+}
+p a:hover,p a:focus{
+	text-decoration: underline;
+}
 
 .body{
 	display: flex;
