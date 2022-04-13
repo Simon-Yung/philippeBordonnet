@@ -50,11 +50,11 @@ exports.render = function(data)
 		<!-- <meta name="geo.placename" content=""> -->
 		<!-- Search Eengine and Browser Meta Tags. -->
 		<!-- Keep under 500 characters -->
-		<meta name="description" content="${data.description}">
+		<!-- <meta name="description" content="${data.description}"> -->
 		<!-- General, 14 Years, Mature or Restricted -->
 		<meta name="rating" content="${data.rating}">
 		<!-- Search engine robots Meta Tags. -->
-		<meta name="robots" content="noindex, follow"> 
+		<meta name="robots" content="index, follow"> 
 		<!-- Favicon Meta Tags. -->
 		<link rel="icon" href="/favicon.ico">
 		<link rel="icon" href="/favicon-32.png" type="image/png">
