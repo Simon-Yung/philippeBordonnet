@@ -2,8 +2,7 @@ const components = require('./components/_components.js');
 
 exports.data = {
 	title: "default Title",
-	baseHref: "",
-	description: "",
+	baseHref: "https://www.philippeborbonnet-artiste.com/",
 	rating: "General"
 };
 
@@ -44,13 +43,13 @@ exports.render = function(data)
 			font-src 'self' *.googleapis.com *.gstatic.com;
 		">
 		<!-- Base URL to use for all relative URLs contained within the document -->
-		<!-- <base href="${data.baseHref}"> -->
+		<base href="${data.baseHref}">
 		<!-- Geo Positioning Meta Tags. -->
 		<!-- <meta name="geo.region" content=""> -->
 		<!-- <meta name="geo.placename" content=""> -->
 		<!-- Search Eengine and Browser Meta Tags. -->
 		<!-- Keep under 500 characters -->
-		<!-- <meta name="description" content="${data.description}"> -->
+		${data.description?'<meta name="description" content="'+data.description+'">':'<!-- <meta name="description" content=""> -->'}
 		<!-- General, 14 Years, Mature or Restricted -->
 		<meta name="rating" content="${data.rating}">
 		<!-- Search engine robots Meta Tags. -->

@@ -1,6 +1,10 @@
 ---
 layout: layout.11ty.js
 title: Philippe Bordonnet | Oeuvres
+description: >-
+  Inspiré, **Philippe Bordonnet** semble imposer couleurs et mouvements
+  pour s'immerser sans contraintes, avec l'énergie d'une vie
+  et l'étourdissement parfois extravagant d'émotions spontanées !
 sections:
   - type: "header"
     content:

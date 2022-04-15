@@ -1,6 +1,8 @@
 ---
 layout: layout.11ty.js
 title: Philippe Bordonnet | Bio
+description: >-
+  Inspired, Philippe Bordonnet appears to impose colors and movements to wash over him free of restraints, with the energy of life and the occasionally extravagant daze of spontaneous emotions !
 sections:
   - type: "header"
     content:

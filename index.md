@@ -1,6 +1,8 @@
 ---
 layout: layout.11ty.js
 title: Philippe Bordonnet | Artist
+description: >-
+  Inspired, Philippe Bordonnet appears to impose colors and movements to wash over him free of restraints, with the energy of life and the occasionally extravagant daze of spontaneous emotions !
 sections:
 
   - type: "landing"
@@ -27,7 +29,7 @@ sections:
         # PHILIPPE BORDONNET, PAINTER  
 
         Inspired, **Philippe Bordonnet** appears to impose colors and movements
-        to wash over him free of restraints, withthe energy of life
+        to wash over him free of restraints, with the energy of life
         and the occasionally extravagant daze of spontaneous emotions !  
         &nbsp;  
         **HIS EXPRESSION REMAINS THAT OF A FIGURATIVE ABSTRACTION**

@@ -1,6 +1,8 @@
 ---
 layout: layout.11ty.js
 title: Philippe Bordonnet | Biografie
+description: >-
+  Philippe Bordonnet ist ein Künstler. Er lässt sich inspirieren von Farben und Bewegungen. Diese verbindet er mit seiner überwältigenden Energie und mitreissenden Emotionen!
 sections:
   - type: "header"
     content:
