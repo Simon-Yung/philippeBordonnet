@@ -38,13 +38,13 @@ exports.render = function(data)
 		<title>${data.title}</title>
 		<meta http-equiv="Content-Security-Policy" content="
 			default-src 'self' *.netlify.app *.philippebordonnet-artiste.com/ *.philippeborbonnet-artiste.com/;
-			img-src 'self' *.netlify.app https://;
+			img-src 'self' *.netlify.app *.philippebordonnet-artiste.com/ *.philippeborbonnet-artiste.com/;
 			script-src 'self' *.netlify.app *.philippebordonnet-artiste.com/ *.philippeborbonnet-artiste.com/;
 			style-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com/ *.netlify.app *.philippebordonnet-artiste.com/  *.philippeborbonnet-artiste.com/;
 			font-src 'self' *.googleapis.com *.gstatic.com;
 		">
 		<!-- Base URL to use for all relative URLs contained within the document -->
-		<base href="${data.baseHref}">
+		<!-- <base href="${data.baseHref}"> bring back latter -->
 		<!-- Geo Positioning Meta Tags. -->
 		<!-- <meta name="geo.region" content=""> -->
 		<!-- <meta name="geo.placename" content=""> -->
