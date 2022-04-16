@@ -2,7 +2,7 @@ const components = require('./components/_components.js');
 
 exports.data = {
 	title: "default Title",
-	baseHref: "https://www.philippeborbonnet-artiste.com/",
+	baseHref: "https://www.philippebordonnet-artiste.com/",
 	rating: "General"
 };
 
@@ -25,21 +25,22 @@ exports.render = function(data)
 			break;
 		default :
 			data.page.local = 'en-GB';
+			langTag = 'en-GB';
 			break;
 	}
 	let renderedContent = `
 <!doctype html>
-<html>
+<html ${langTag?'lang="' + langTag + '"':''}>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge; chrome=1"> <!-- Render Chrome if available or using latest version of Internet Explorer (Recommended). -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=auto">
 		<title>${data.title}</title>
 		<meta http-equiv="Content-Security-Policy" content="
-			default-src 'self';
-			img-src 'self' https://;
-			script-src 'self';
-			style-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com/;
+			default-src 'self' *.netlify.app *.philippebordonnet-artiste.com/ *.philippeborbonnet-artiste.com/;
+			img-src 'self' *.netlify.app https://;
+			script-src 'self' *.netlify.app *.philippebordonnet-artiste.com/ *.philippeborbonnet-artiste.com/;
+			style-src 'self' 'unsafe-inline' *.googleapis.com *.gstatic.com/ *.netlify.app *.philippebordonnet-artiste.com/  *.philippeborbonnet-artiste.com/;
 			font-src 'self' *.googleapis.com *.gstatic.com;
 		">
 		<!-- Base URL to use for all relative URLs contained within the document -->
@@ -63,7 +64,7 @@ exports.render = function(data)
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet"> 
 		<script src="/assets/js/gallery.js" defer></script>
 	</head>
-	<body class="body" ${langTag?'lang="' + langTag + '"':''}>`;
+	<body class="body">`;
 
 	let i = 0;
 	while ( Boolean(data.sections[i]) )

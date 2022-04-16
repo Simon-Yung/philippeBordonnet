@@ -2,7 +2,7 @@ exports.render = function ( content, pagedata )
 {
 	let output = `
 	<header class="header" ${content.id?'id="'+content.id+'"':''}>
-		<a href="/${pagedata.page.local}"><img class="header__image" src="${content.logo != undefined ? this.imgCopy(content.logo).url : ''}"></a>
+		<a href="/${pagedata.page.local}"><img class="header__image" alt="Logo" src="${content.logo != undefined ? this.imgCopy(content.logo).url : ''}"></a>
 		<hr class="header__hr">
 		<nav id="nav">
 			<ul class="nav">`
@@ -20,7 +20,7 @@ exports.render = function ( content, pagedata )
 			</ul>
 		</nav>
 		<div class="lang">
-			<img class="lang__icon" src="${this.imgCopy('/lang.png').url}">
+			<img class="lang__icon" alt="Language Langue Sprache" src="${this.imgCopy('/lang.png').url}">
 			<ul class="lang__menu">
 				<a href="/en-GB/${pagedata.page.url.replace( /\/[a-z]{2}-[A-Z]{2}\// , '' )}"><li class="lang__menu__item">English</li></a>
 				<a href="/fr-FR/${pagedata.page.url.replace( /\/[a-z]{2}-[A-Z]{2}\// , '' )}"><li class="lang__menu__item">Francais</li></a>
